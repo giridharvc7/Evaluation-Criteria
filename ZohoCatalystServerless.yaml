@@ -1,0 +1,68 @@
+---
+# Evaluation Criteria for Functions as a Service
+# Only public cloud services to be evaluated
+# Created by Rishidot Research (www.rishidot.com) and released under Attribution-ShareAlike 4.0 International
+# Note to vendors: Please use True or False for Yes/No answers. For responses with multiple options, use {} with individuals option separated by commas
+# Please Use the filename as VendorNameFaaS.yaml (for public cloud service) or VendorNameServerless.yaml (for software)
+FaaS Evaluation Criteria:
+  has_list: True
+  Service Consumption:
+    - General Availability: Request for Access
+    - Self Service: False
+    - Pay Per Use Pricing: True
+    - Memory Sizing: False
+    - Language Support: True
+    - Language Extensibility: False
+    - Open Source: False
+    - Multi Cloud Support: False
+    - Hybrid Cloud Support: False
+  Application Deployment:
+    - Function Code Input Options: True
+    - Container Support: False
+    - Binary Payload: False
+    - Browser Based Code Editor: True
+    - Visual Workflow Editor: False
+    - Event Sources: True
+    - Dependencies: True
+    - HTTP(S) Invocation: True
+    - Platform APIs/Libraries: True
+    - Environment Variables: False
+    - Built-In Versioning: False
+    - Maximum Number of Functions Per Project/Namespace: 5
+    - Concurrent Executions: True
+    - Maximum Execution Time: 15 minutes
+    - Support For Long Running Jobs: True
+    - Quota Increase: False
+    - High Availabilty: True
+    - Persistent Data: True
+    - Streaming Support: False
+    - Warm Start Support: True
+    - Number Of Metrics: 3
+    - List of Metrics: {Total Invocations, Error Invocations, Timeout Invocations}
+    - Support For Custom Metrics: False
+  API Gateway:
+    - Free API Gateway: In Progress
+    - Rate Limiting: In Progress
+    - User Aunthentication/OAuth: True
+    - Cross Origin Resource Sharing Support: In Progress
+    - Path Routing Support: True
+    - Traffic Shaping Support: False
+    - Wildcard Support In Naming Parameters: True
+  Integrations:
+    - Supported Cloud Services: False
+    - Built in Logging: True
+    - Built in Monitoring: True
+    - Third Party Integrations Out Of The Box: False
+  Security:
+    - Cloud Provider IAM Support: False
+    - Virtual Private Network Support: False
+    - Compliance: False
+    - GDPR Compliance: True
+  Documentation:
+    - Wiki (or equivalent): True
+    - Howtos: True
+    - Examples/Use Cases: True
+    - Videos: False
+    - User Community: False
+    - API Documentation: True
+...
